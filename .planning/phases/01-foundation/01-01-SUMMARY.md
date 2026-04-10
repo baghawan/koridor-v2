@@ -51,7 +51,6 @@ completed: 2026-04-10
 - `src/app/layout.tsx` - Root layout with metadata
 - `src/app/page.tsx` - Homepage with Koridor branding
 - `src/app/globals.css` - Tailwind with custom colors (primary, secondary, accent)
-- `src/app/globals.css` - Tailwind with custom colors (primary, secondary, accent)
 - `next.config.ts` - Next.js configuration
 - `tsconfig.json` - TypeScript configuration
 
@@ -69,3 +68,19 @@ completed: 2026-04-10
 ## Requirements Met
 - [x] I18N-04: Artist bios support bilingual content (JSON String field)
 - [x] I18N-05: Artwork titles/descriptions support bilingual content (JSON String fields)
+
+## Self-Check
+- [x] package.json exists with next, react, typescript, tailwindcss dependencies
+- [x] prisma in devDependencies, @prisma/client in dependencies
+- [x] next-intl in dependencies
+- [x] Prisma schema contains Artist, Artwork, City, Style models with relationships
+- [x] Artist → Artwork is one-to-many
+- [x] Indexes on artistId, cityId, styleId
+- [x] prisma/migrations/ directory exists with init migration
+- [x] node_modules/.prisma/client/ exists (prisma generate succeeded)
+- [x] .env contains DATABASE_URL
+- [x] tailwind configured with custom colors
+- [x] src/app/layout.tsx exports metadata and RootLayout component
+- [x] src/app/globals.css contains @tailwind directives
+- [x] src/app/page.tsx displays "Koridor" heading
+- [x] npm run build completes without errors
