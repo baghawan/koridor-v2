@@ -40,9 +40,9 @@
 
 ### Internationalization
 
-- [ ] **I18N-01**: UI displays in Bahasa Indonesia
-- [ ] **I18N-02**: UI displays in English
-- [ ] **I18N-03**: User can switch between Bahasa Indonesia and English
+- [x] **I18N-01**: UI displays in Bahasa Indonesia
+- [x] **I18N-02**: UI displays in English
+- [x] **I18N-03**: User can switch between Bahasa Indonesia and English
 - [x] **I18N-04**: Artist bios support bilingual content in database
 - [x] **I18N-05**: Artwork titles/descriptions support bilingual content in database
 

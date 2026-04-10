@@ -110,7 +110,7 @@ A bilingual (Bahasa Indonesia + English) directory for documenting Indonesian st
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/3 | In progress | 2026-04-10 |
+| 1. Foundation | 2/3 | In Progress|  |
 | 2. Artist Profiles | 0/TBD | Not started | - |
 | 3. Artwork Management | 0/TBD | Not started | - |
 | 4. Gallery & Discovery | 0/TBD | Not started | - |
