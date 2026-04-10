@@ -1,0 +1,18 @@
+{
+  "Home": {
+    "subtitle": "Indonesia Street Art Directory"
+  },
+  "Nav": {
+    "artists": "Artists",
+    "pieces": "Pieces",
+    "submit": "Submit",
+    "admin": "Admin"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "Language": {
+    "switch": "Switch Language"
+  }
+}

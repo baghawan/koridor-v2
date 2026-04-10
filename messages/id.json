@@ -1,0 +1,18 @@
+{
+  "Home": {
+    "subtitle": "Direktori Seni Jalanan Indonesia"
+  },
+  "Nav": {
+    "artists": "Seniman",
+    "pieces": "Karya",
+    "submit": "Kirim",
+    "admin": "Admin"
+  },
+  "Common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan"
+  },
+  "Language": {
+    "switch": "Ganti Bahasa"
+  }
+}
