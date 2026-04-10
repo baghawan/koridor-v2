@@ -1,6 +1,6 @@
 # Feature Research
 
-**Domain:** Graffiti/Street Art Directory
+**Domain:** Street Art Directory
 **Researched:** 2026-04-10
 **Confidence:** MEDIUM
 
@@ -10,11 +10,11 @@ Based on analysis of 8 competitor products and market patterns.
 
 ### Table Stakes (Users Expect These)
 
-Core features without which a graffiti directory feels broken or incomplete.
+Core features without which a street art directory feels broken or incomplete.
 
 | Feature | Why Expected | Complexity | Notes |
 |---------|--------------|------------|-------|
-| Artist profiles with alias, location, bio, styles | Users need to discover and identify artists — this IS the directory | MEDIUM | Must include alias (graffiti name), city/location, styles/tags, years active. Contact links optional for Phase 1 |
+| Artist profiles with alias, location, bio, styles | Users need to discover and identify artists — this IS the directory | MEDIUM | Must include alias (street art name), city/location, styles/tags, years active. Contact links optional for Phase 1 |
 | Artwork/piece listings with photo, artist, city, year | Visual content is the core value — users browse by looking at art | LOW | Photo-first design. Needs artist attribution, location context, approximate year |
 | Search/filter by artist name | Users know who they're looking for | LOW | Simple text search, fuzzy matching helpful |
 | Search/filter by city | Geographic discovery is primary use case | LOW | Indonesia focus means city filtering is essential |
@@ -27,14 +27,14 @@ Core features without which a graffiti directory feels broken or incomplete.
 
 ### Differentiators (Competitive Advantage)
 
-Features that set this product apart. Align with core value: Document, preserve, and share Indonesia's graffiti culture.
+Features that set this product apart. Align with core value: Document, preserve, and share Indonesia's street art culture.
 
 | Feature | Value Proposition | Complexity | Notes |
 |---------|-------------------|------------|-------|
 | Indonesia-focused depth | Global directories skim Indonesia — we're the definitive source | LOW | No competitor focuses on Indonesia — this IS the differentiation |
 | Color palette extraction | Unique data — no other directory does this well | MEDIUM | Deferred to Phase 2 per PROJECT.md — defer to v1.x |
 | Neighborhood-level location | Indonesia-specific context (village names, jakartan areas) | MEDIUM | Beyond cities — specific neighborhoods: Cicadas,Kemang,SCBD |
-| Crew/family associations | Graffiti is crew-based — connections matter | LOW | Link artists to crews, track crew histories |
+| Crew/family associations | Street art is crew-based — connections matter | LOW | Link artists to crews, track crew histories |
 | Temporal archive tracking | Graffiti is ephemeral — track what's gone | MEDIUM | "Last seen" dates, disappeared pieces, historical record |
 | Artist contact/booking pathway | Future Phase 3, but worth signaling | HIGH | Deferred for now but builds trust early |
 | Community submission workflow | Engage the scene — let people contribute | MEDIUM | Per PROJECT.md — submissions need moderation queue |
@@ -48,7 +48,7 @@ Features that seem good but create problems.
 
 | Feature | Why Requested | Why Problematic | Alternative |
 |---------|---------------|-----------------|-------------|
-| Real-time location tracking | Users want to see "near me now" | Graffiti locations are often sensitive — sharing exact addresses enables removal, conflicts with artist consent | General city/neighborhood is sufficient, allow artists to share precise location voluntarily |
+| Real-time location tracking | Users want to see "near me now" | Street art locations are often sensitive — sharing exact addresses enables removal, conflicts with artist consent | General city/neighborhood is sufficient, allow artists to share precise location voluntarily |
 | Public artist ratings/reviews | "Like Yelp for artists" | Subjective, gaming risk, drama — bad for a cultural archive | Let users save/favorite artists instead |
 | Public messaging to artists | "Direct contact" | Spam, harassment risk, moderation nightmare | Contact form with founder mediation, booking in Phase 3 |
 | Automatic geolocation from photos | "Save GPS from uploads" | Privacy, EXIF risks, accuracy issues | Manual location input is better for privacy and accuracy |
@@ -160,7 +160,7 @@ Defer until product-market fit is clear.
 
 ## Competitor Feature Analysis
 
-| Feature | Graffiti Database | Street Art Cities | Street Art Safari | The Street Art Directory | Our Approach |
+| Feature | Street Art Database | Street Art Cities | Street Art Safari | The Street Art Directory | Our Approach |
 |---------|-------------------|-----------------|-----------------|-------------------|--------------|
 | Artist profiles | Yes | Yes | Yes | Yes | P1 — full (alias, city, styles, bio, contact) |
 | Artwork gallery | Yes (core) | Yes (core) | Yes (core) | Yes (core) | P1 — core value |
@@ -207,5 +207,5 @@ Defer until product-market fit is clear.
 
 ---
 
-*Feature research for: Indonesia Graffiti Directory*
+*Feature research for: Indonesia Street Art Directory*
 *Researched: 2026-04-10*

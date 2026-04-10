@@ -1,8 +1,8 @@
-# Domain Pitfalls: Indonesia Graffiti Directory
+# Domain Pitfalls: Indonesia Street Art Directory
 
-**Domain:** Graffiti/Street Art Directory
+**Domain:** Street Art Directory
 **Researched:** 2026-04-10
-**Project Context:** Greenfield directory of Indonesian graffiti artists, pieces, and color palettes
+**Project Context:** Greenfield directory of Indonesian street art artists, pieces, and color palettes
 
 ---
 

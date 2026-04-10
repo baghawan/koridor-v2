@@ -1,6 +1,6 @@
 # Technology Stack
 
-**Project:** Indonesia Graffiti Directory
+**Project:** Indonesia Street Art Directory
 **Researched:** 2026-04-10
 **Confidence:** HIGH
 
@@ -33,7 +33,7 @@
 |------------|---------|---------|-----|
 | **Tailwind CSS** | 4.x | Utility-first CSS | Already planned in PROJECT.md. Pairs well with Next.js. |
 
-### Image Uploads (Critical for Graffiti Directory)
+### Image Uploads (Critical for Street Art Directory)
 
 | Technology | Purpose | When to Use |
 |------------|---------|-------------|

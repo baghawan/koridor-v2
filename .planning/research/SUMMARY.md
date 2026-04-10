@@ -1,22 +1,22 @@
 # Project Research Summary
 
-**Project:** Indonesia Graffiti Directory
-**Domain:** Artist/Graffiti Directory Platform
+**Project:** Indonesia Street Art Directory
+**Domain:** Artist/Street Art Directory Platform
 **Researched:** 2026-04-10
 **Confidence:** HIGH
 
 ## Executive Summary
 
-This is a media-centric directory platform for documenting Indonesian graffiti artists and their work. Research confirms that successful graffiti directories (Graffiti Database, Street Art Cities, Street Art Safari) treat media as first-class entities with rich metadata, connected to artist profiles through normalized relationships. The key insight: this platform must solve the consent/legal complexity unique to graffiti (artists often on property they don't own) while building critical mass BEFORE launch — a directory with <50 artists or <200 pieces looks abandoned and dies.
+This is a media-centric directory platform for documenting Indonesian street art artists and their work. Research confirms that successful street art directories (Graffiti Database, Street Art Cities, Street Art Safari) treat media as first-class entities with rich metadata, connected to artist profiles through normalized relationships. The key insight: this platform must solve the consent/legal complexity unique to graffiti (artists often on property they don't own) while building critical mass BEFORE launch — a directory with <50 artists or <200 pieces looks abandoned and dies.
 
-The recommended stack is Next.js 15.x + Prisma + PostgreSQL + UploadThing for images. This differs from PROJECT.md's "planned" TanStack Start (alpha status, too risky). Core phase structure: (1) Foundation + Seed Data, (2) Core Discovery + Submission, (3) Color Palettes + Monetization per PROJECT.md. Critical pitfalls to avoid: no consent framework, launching without 100+ artists, no artist opt-out controls, weak search. Bilingual (EN+BI) must be in schema from day one, not bolted on later.
+The recommended stack is Next.js 16.x + Prisma + PostgreSQL + UploadThing for images. This differs from PROJECT.md's "planned" TanStack Start (alpha status, too risky). Core phase structure: (1) Foundation + Seed Data, (2) Core Discovery + Submission, (3) Color Palettes + Monetization per PROJECT.md. Critical pitfalls to avoid: no consent framework, launching without 100+ artists, no artist opt-out controls, weak search. Bilingual (EN+BI) must be in schema from day one, not bolted on later.
 
 ## Key Findings
 
 ### Recommended Stack
 
 **Core technologies:**
-- **Next.js 15.x** — SSR meta-framework with App Router, server actions, built-in image optimization. Dominant React framework with largest ecosystem.
+- **Next.js 16.x** — SSR meta-framework with App Router, server actions, built-in image optimization. Dominant React framework with largest ecosystem.
 - **PostgreSQL 16.x + Prisma 7.x** — Relational DB with best-in-class DX for TypeScript. Schema-first migrations, Prisma Studio for debugging.
 - **Tailwind CSS 4.x** — Utility-first styling, pairs well with Next.js.
 - **UploadThing** — Cloud storage + CDN for images. 2GB free tier handles MVP. Type-safe API, automatic chunked uploads, offloads server load. Recommended over local filesystem (no CDN, breaks in production) or Cloudinary (overkill).

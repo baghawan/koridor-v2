@@ -1,12 +1,12 @@
-# Architecture Patterns: Graffiti Directory System
+# Architecture Patterns: Street Art Directory System
 
-**Domain:** Artist/Graffiti Directory Platform
+**Domain:** Artist/Street Art Directory Platform
 **Researched:** 2025-04-10
 **Confidence:** MEDIUM-HIGH
 
 ## Executive Summary
 
-Graffiti directory systems follow a media-centric architecture pattern popularized by photo galleries and catalog systems (MusicBrainz, INGRID, Google Photos). The key insight from research: these systems treat media as first-class entities with rich metadata, connected to artist profiles through many-to-many relationships. For this Indonesia graffiti directory, the architecture should separate **content ingestion** (uploads, processing, storage) from **content presentation** (gallery, search, profiles) with a shared data layer.
+Street art directory systems follow a media-centric architecture pattern popularized by photo galleries and catalog systems (MusicBrainz, INGRID, Google Photos). The key insight from research: these systems treat media as first-class entities with rich metadata, connected to artist profiles through many-to-many relationships. For this Indonesia street art directory, the architecture should separate **content ingestion** (uploads, processing, storage) from **content presentation** (gallery, search, profiles) with a shared data layer.
 
 The chosen stack (TanStack Start + Prisma + PostgreSQL) maps well to proven patterns: server functions handle database operations, Prisma provides the relational model, and filesystem storage serves media.
 
