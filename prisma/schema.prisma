@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Lookup tables (normalized)
+model City {
+  id        String   @id @default(cuid())
+  name      String   // Single language for city names
+  slug      String   @unique
+  artworks  Artwork[]
+  artists   Artist[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Style {
+  id        String   @id @default(cuid())
+  name      String   // Single language for style names
+  slug      String   @unique
+  artworks  Artwork[]
+  artists   Artist[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Main entities with bilingual content
+model Artist {
+  id          String    @id @default(cuid())
+  alias       String    // Artist name/alias (single language)
+  slug        String    @unique
+  bio         String    // JSON: { en: "...", id: "..." } per D-05
+  cityId      String?
+  city        City?     @relation(fields: [cityId], references: [id])
+  styles      Style[]
+  artworks    Artwork[] // One-to-many: Artist has many Artworks
+  yearsActive String?   // e.g., "2010-present"
+  isVerified  Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Indexes per D-02
+  @@index([cityId])
+}
+
+model Artwork {
+  id          String   @id @default(cuid())
+  title       String   // JSON: { en: "...", id: "..." } per D-05
+  description String?  // JSON: { en: "...", id: "..." }
+  imageUrl    String
+  artistId    String
+  artist      Artist   @relation(fields: [artistId], references: [id])
+  cityId      String?
+  city        City?    @relation(fields: [cityId], references: [id])
+  styleId     String?
+  style       Style?   @relation(fields: [styleId], references: [id])
+  year        Int?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Indexes per D-02
+  @@index([artistId])
+  @@index([cityId])
+  @@index([styleId])
+}
