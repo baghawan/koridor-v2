@@ -14,5 +14,21 @@
   },
   "Language": {
     "switch": "Ganti Bahasa"
+  },
+  "Artists": {
+    "title": "Seniman",
+    "description": "Jelajahi seniman seni jalanan dari Indonesia"
+  },
+  "Pieces": {
+    "title": "Karya",
+    "description": "Jelajahi karya seni dari seluruh Indonesia"
+  },
+  "Admin": {
+    "title": "Admin",
+    "description": "Kelola seniman dan karya seni"
+  },
+  "Submit": {
+    "title": "Kirim",
+    "description": "Kirim karya untuk ditinjau"
   }
 }

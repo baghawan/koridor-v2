@@ -14,5 +14,21 @@
   },
   "Language": {
     "switch": "Switch Language"
+  },
+  "Artists": {
+    "title": "Artists",
+    "description": "Browse street art artists from Indonesia"
+  },
+  "Pieces": {
+    "title": "Pieces",
+    "description": "Explore artworks from across Indonesia"
+  },
+  "Admin": {
+    "title": "Admin",
+    "description": "Manage artists and artworks"
+  },
+  "Submit": {
+    "title": "Submit",
+    "description": "Submit a piece for review"
   }
 }
